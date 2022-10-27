@@ -54,7 +54,5 @@ func (c *converter) Convert(text string) (string, error) {
 	ctx.SetDst(background)
 	ctx.SetSrc(c.ForegroundColor)
 
-	// pt := freetype.Pt(10, 10+int(ctx.PointToFixed(c.FontSize)>>6))
-
 	return "", errors.New("foo")
 }
